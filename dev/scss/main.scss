@@ -174,3 +174,134 @@ section {
     }
   }
 }
+
+//==========================
+// Start Media Query
+//==========================
+
+// Portrait tablets and small desktops
+@media (max-width: 991px) {
+  .container,
+  .navbar-expand-lg > .container,
+  .navbar-expand-lg > .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  // Start Header
+  .navbar-nav {
+    // display: flex !important;
+    flex-direction: row;
+  }
+}
+
+// Start Tablet Screen
+@media (max-width: 768px) {
+  // Global Style
+  .navbar-expand-lg > .container,
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .header .navbar .navbar-nav li {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .section-title {
+    font-size: 30px;
+  }
+  // Hero Section
+  .hero-section {
+    text-align: center;
+
+    .col-8 {
+      margin: auto;
+    }
+    .welcome-title {
+      font-size: 38px;
+      line-height: 50px;
+      text-align: center;
+    }
+    .content-text {
+      margin-top: 30px;
+    }
+  }
+  .section-three {
+    padding-bottom: 113px;
+    .block-content {
+      .heading-x5 {
+        font-size: 28px;
+        margin-bottom: 17px;
+        & + .block-text {
+          font-size: 20px;
+        }
+      }
+      .heading-x4 {
+        font-size: 22px;
+        margin-bottom: 15px;
+        & + .block-text {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+// Start Portrait phones and smaller
+@media (max-width: 480px) {
+  // Global Style
+  .navbar-expand-lg > .container,
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .section-title {
+    margin-bottom: 20px;
+  }
+  // Start Navbar Style
+  .header {
+    .navbar {
+      height: 60px;
+      padding: 0;
+      .navbar-nav {
+        li {
+          padding-left: 6px;
+          padding-right: 6px;
+          .icon {
+            font-size: 18px;
+          }
+          .btn {
+            min-width: 70px !important;
+            height: 40px !important;
+            line-height: 40px;
+          }
+        }
+      }
+    }
+  }
+
+  .hero-section {
+    padding: 50px 0 !important;
+    min-height: 460px;
+    .hero-content {
+      align-items: center;
+      .col-8 {
+        text-align: center;
+        margin: auto;
+        .welcome-title {
+          margin: 0;
+        }
+      }
+      .content-text {
+        margin-bottom: 30px;
+      }
+    }
+  }
+  .team-section {
+    padding-top: 50px !important;
+    padding-bottom: 10px;
+  }
+  .section-three {
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+}
