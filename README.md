@@ -1,4 +1,4 @@
-# trufla-task
+# Trufla-task
 
 This Task From Trufla Company
 
@@ -13,8 +13,10 @@ This Task From Trufla Company
 
   <h3 align="center">Full Stack Developer Task - Trufla Task</h3>
   <h6 align="center">
-    <a  href="https://mamdouhramadan.github.io/trufla-task/dist"><strong>View Demo »</strong></a>
+    <a  href="https://mamdouhramadan.github.io/trufla-task/dist" target="_blank"><strong>View Demo »</strong></a>
   </h6>
+  <br/>
+  <br />
   </p>
 
 <!-- ABOUT THE PROJECT -->
