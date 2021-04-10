@@ -23,7 +23,7 @@ This Task From Trufla Company
 
 ## About The Task - What should Done
 
-![](https://mamdouhramadan.github.io/trufla-task/dist/images/screen-shot.png)
+![](https://raw.githubusercontent.com/mamdouhramadan/trufla-task/main/screen-shot.png)
 
 For this task please take the screens in this Invision project that you were invited to and code them in mobile first, semantically correct HTML, SCSS and JavaScript (if needed). You will have received an email invitation to the Invision project that will step you through creating an Invision account if you don't already have one. If you did not received the invitation email then click this link (https://invis.io/DJZNDUHMK8C), click the Inspect button in the bottom right corner of the screen and then click the Request access button.
 You can use Invision's Inspect mode on each of the design screens to see the full details on fonts, font sizes, line heights, etc. as well as export any images used in the design. If you have never used Invision before, full documentation for Inspect is here (https://support.invisionapp.com/hc/en-us/sections/360007928472-Inspect). Please complete as much as you can in 6-8 hours.
