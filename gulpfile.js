@@ -44,7 +44,7 @@ gulp.task('css', function () {
 // Start Libraries and Framework Task
 // ====================================
 gulp.task('libs', function () {
-    return gulp.src(['dev/libs/reset.min.css', 'dev/libs/normalize.css', 'dev/libs/bootstrap.min.css', 'dev/libs/font-awesome.min.css', 'dev/libs/**/*.css', 'dev/libs/**/*.scss'])
+    return gulp.src(['dev/libs/reset.min.css', 'dev/libs/normalize.css', 'dev/libs/bootstrap.css', 'dev/libs/font-awesome.css', 'dev/libs/**/*.css', 'dev/libs/**/*.scss'])
         .pipe(sourcemap.init())
         .pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
         .pipe(autoprefixer())
