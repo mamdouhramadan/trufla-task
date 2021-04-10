@@ -6749,10 +6749,7 @@ button.bg-dark:hover {
 .position-fixed {
   position: fixed !important;
 }
-.position-sticky {
-  position: -webkit-sticky !important;
-  position: sticky !important;
-}
+
 .fixed-top {
   position: fixed;
   top: 0;
@@ -6767,14 +6764,7 @@ button.bg-dark:hover {
   left: 0;
   z-index: 1030;
 }
-@supports ((position: -webkit-sticky) or (position: sticky)) {
-  .sticky-top {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 1020;
-  }
-}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -8259,16 +8249,8 @@ a.text-dark:hover {
   tr {
     page-break-inside: avoid;
   }
-  h2,
-  h3,
-  p {
-    orphans: 3;
-    widows: 3;
-  }
-  h2,
-  h3 {
-    page-break-after: avoid;
-  }
+  
+  
   @page {
     size: a3;
   }
